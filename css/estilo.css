@@ -1,0 +1,227 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url(../imagens/fundosite2.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#principal{
+    margin: 0 auto;
+}
+#topo{
+ padding: 10px;
+ background-color:#e18ab7e8;
+ margin: 20px;
+ border-radius: 10px;
+ text-align: center;
+}
+#topo img{
+    width:150px;
+    height: auto;
+}
+nav{  
+    background-color:#e18ab7e8;
+    margin:20px;
+    padding:5px;
+    border-radius:10px; 
+}
+ul{
+    list-style-type:none;
+    text-align: center;
+}
+.menu{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px; 
+}
+.menu:hover{
+    background-color:#ffad01 ;
+    color:#fff;
+}
+main{
+    background-color:#e18ab7e8;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+article img{
+    width:100%;
+    height: auto;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Parisienne', cursive;
+}
+aside{
+    background-color:#e18ab7e8;
+    padding: 10px;
+    margin: 20px;
+    flex: wrap;
+    display:flex;
+    border-radius: 5px;
+}
+aside div{
+    text-align: center;
+}
+aside a{
+    text-decoration: none;
+    color: #fff;
+}
+aside a:hover{
+    text-decoration: none;
+    color: #ffad01;
+}
+#massa{
+    margin-right:5px;
+}
+#massa img{
+    width:100%;
+    border-radius: 5px;
+}
+#palito img{
+    width: 100%;
+    border-radius:5px; 
+}
+footer div{
+    background-color:#e18ab7e8;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: smaller;
+}
+h2{
+    color:#fff;
+    font-family: 'Parisienne', cursive;
+}
+#sorvetes{
+    background-color:#e18ab7e8;
+    margin: 20px;
+    padding: 5px;
+    border-radius:5px;
+    color: #fff;
+}
+.massa{
+    display: flex;
+    flex-direction: column;
+}
+.linha1{
+    display: flex;
+    padding:10px;
+}
+.linha1 div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.linha2{
+    display: flex;
+    padding:10px;
+}
+.linha2 div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.esquerda{
+    margin-right:10px;
+}
+#sorvetes p{
+    text-align: center;
+}
+.palito{
+    display: flex;
+    flex-direction: column;
+}
+#contato p{
+    text-align: justify;
+
+}
+input,textarea{
+    background-color:#ffad01 ;
+    border-radius: 3px;
+    border: solid 2px ;
+    color: #fff;
+    padding: 5px;
+    resize: none;
+}
+h2 a{
+    color: #fff;
+    text-decoration: none;
+}
+h2 a:hover{
+    color: #ffad01;
+    text-decoration: none;
+}
+
+
+
+@media(min-width:960px){
+#principal{
+    max-width:1024px;
+}
+#topo img{
+    width:200px;
+    height: auto;
+}
+h1{
+    padding:15px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    display: flex;
+}
+article img{
+    width:100%;
+    height:auto;
+    margin-right: 10px;
+    padding:10px;
+    border-radius: 20px;
+}
+article p{
+    line-height:32px;
+    padding:10px;
+}
+#massa{
+    padding: 10px;
+}
+#palito{
+    padding: 10px 10px 0px 10px;
+}
+.linha1{
+    display: flex;
+    justify-content: space-around;
+}
+.linha2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+}
+
+
+
+
+    
+
+
+
+
+    
+
